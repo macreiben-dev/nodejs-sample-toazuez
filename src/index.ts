@@ -6,6 +6,6 @@ const port = 3000;
 
 app.get("/hello", helloController);
 
-app.listen(port, () => {
+app.listen(process.env.PORT, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
