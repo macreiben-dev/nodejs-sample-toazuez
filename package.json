@@ -4,7 +4,6 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "test",
     "start": "ts-node src/index.ts",
     "build": "tsc"
   },
